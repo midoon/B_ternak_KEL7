@@ -1,0 +1,45 @@
+.navbar {
+  background-color: #4a463b;
+}
+
+body {
+  background-color: #f3f2e3;
+}
+
+.nav-bar {
+  margin-bottom: 65px;
+}
+
+section.footer {
+  margin-top: 70px;
+}
+
+section.footer .container {
+  border-top: rgba(0, 0, 0, 0.2) 2px solid;
+}
+
+.footer .foot {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.text-deco-none {
+	text-decoration: none;
+	color : black;
+}
+
+.center {
+  align-self: center;
+}
+
+.y-center {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

@@ -1,0 +1,16 @@
+.jumbotron{
+    padding: 2rem 1rem;
+
+}
+section.footer {
+    margin-top: 0px;
+  }
+  
+  section.footer .container {
+    border-top: rgba(0, 0, 0, 0.2) 2px solid;
+  }
+  
+  .footer .foot {
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }

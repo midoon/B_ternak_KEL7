@@ -1,0 +1,24 @@
+.navbar {
+  background-color: #4a463b;
+}
+
+body {
+  background-color: #f3f2e3;
+}
+
+.nav-bar {
+  margin-bottom: 65px;
+}
+
+section.footer {
+  margin-top: 70px;
+}
+
+section.footer .container {
+  border-top: rgba(0, 0, 0, 0.2) 2px solid;
+}
+
+.footer .foot {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}

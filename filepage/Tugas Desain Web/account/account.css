@@ -1,0 +1,46 @@
+.kotak-atas {
+	margin-top : 100px;
+}
+
+.kotak-bawah {
+	margin-top : 30px;
+}
+
+.mebius {
+	padding : 20px 40px 20px 40px;
+	background-color: white;
+	border-radius: 25px;
+}
+
+.nama-akun {
+	font-size: 25px;
+}
+
+.menu {
+	width : 110px;
+	height : 100px;
+}
+
+.menu-label {
+	text-decoration: none;
+}
+
+.menu-label:hover img.menu{
+	width : 120px;
+	height : 110px;
+	background-color : rgba(0, 0, 0, 0.3);
+	transition: 0.3s;
+}
+
+.menu-label:hover span.label{
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.menu-label:not(:hover) img.menu{
+	transition: 0.3s;
+}
+
+.menu-label:not(:hover) span.label{
+	transition: 0.3s;
+}

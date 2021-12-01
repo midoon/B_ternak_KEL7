@@ -1,0 +1,43 @@
+.banner {
+  margin-top: 100px;
+}
+
+.banner .slogan {
+  background-color: white;
+}
+
+.banner .slogan h6,
+.banner .slogan svg {
+  margin-top: 15px;
+}
+
+.card-produk {
+  margin-top: 30px;
+}
+
+.card-produk h3 {
+  color: #4a463b;
+}
+
+.card-produk .container {
+  background-color: white;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.olahan {
+  margin-top: 30px;
+}
+
+.olahan .container {
+  border-radius: 20px;
+  background-color: white;
+  padding-top: 35px;
+  padding-bottom: 40px;
+}
+
+.card-produk a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,44 @@
+.box {
+	background-color: white;
+	border-radius: 20px;
+	padding : 20px 20px 20px 20px;
+}
+
+.bigbox {
+	margin : 100px 0px 30px 0px;
+}
+
+.chatbox {
+	border : 1px solid rgba(0,0,0,0.3);
+	background-color: white;
+	border-radius: 10px;
+	padding : 0px;
+}
+
+.chatbox:hover {
+	border : 2px solid black;
+	transition : 0.3s;
+}
+
+.new {
+	background-color : red;
+	width: 20px;
+	height: 20px;
+}
+
+.time {
+	color: grey;
+}
+
+.isi-chat {
+	color : black;
+}
+
+.judul {
+	font-weight: bold;
+}
+
+.toko {
+	color : grey;
+	font-size: 10px;
+}

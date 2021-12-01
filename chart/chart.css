@@ -1,0 +1,59 @@
+.search {
+  margin-top: 100px;
+}
+
+.header {
+  margin-top: 30px;
+}
+
+.header h5 {
+  font-size: 1.5vw;
+}
+
+.header .container,
+.produk .container .bar-kard {
+  background-color: white;
+}
+
+.produk {
+  margin-top: 30px;
+}
+
+.produk img {
+  width: 100%;
+}
+
+.produk p {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .produk img {
+    width: 100%;
+  }
+
+  .produk p,
+  .produk h5,
+  .checkout h6 {
+    font-size: 2.5vw;
+  }
+}
+
+.produk .bungkus {
+  display: flex;
+  align-items: center;
+}
+
+.checkout {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.checkout .row {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.checkout .container {
+  background-color: white;
+}
