@@ -1,0 +1,30 @@
+.sec-atas {
+  margin-top: 100px;
+}
+
+.sec-tengah,
+.sec-bawah {
+  margin-top: 30px;
+}
+
+.main-box {
+  background-color: white;
+  border-radius: 25px;
+  padding: 20px 40px 20px 40px;
+}
+
+.img-input {
+  width: 180px;
+  height: 160px;
+}
+
+.btn-img {
+  width: 120px;
+  height: 70px;
+}
+
+.btn-img:hover,
+.btn-jual:hover {
+  color: white;
+  font-weight: bold;
+}

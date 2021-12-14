@@ -10,13 +10,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <!-- global css -->
     <link rel="stylesheet" href="../style.css">
 
-    <!-- lokal css -->
-    <link rel="stylesheet" href="./account.css">
-
-    <title>Akun</title>
+    <link rel="stylesheet" href="./sell.css">
+    <title>Hello, world!</title>
 </head>
 
 <body>
@@ -61,7 +58,7 @@
                                     </svg></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./account.html"><svg
+                                <a class="nav-link active" aria-current="page" href="../account/account.html"><svg
                                         xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
                                         class="bi bi-person-circle" viewBox="0 0 16 16">
                                         <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
@@ -75,85 +72,106 @@
             </nav>
         </div>
     </section>
-    <!-- akhir nav -->
 
 
-    <!-- kotak atas -->
-    <section class="kotak-atas">
-        <div class="container mebius shadow">
+    <!-- box atas-->
+    <section class="sec-atas">
+        <div class="container box-atas main-box shadow">
             <div class="row">
-                <div class="col-3">
-                    <a href=""><img src="../img/profil.png" class="rounded-circle img-fluid img-thumbnail"></a>
-                </div>
-                <div class="col-6 mt-2 mb-2">
-                    <div class="row label-nama mb-1"><span>Nama Akun</span></div>
-                    <div class="row nama-akun mb-1"><b>Hachiman</b></div>
-                    <div class="row tombol-box">
-
-                        <button class="btn btn-outline-primary col-md-3 ms-1 mb-1 shadow-sm">
-                            <a href="../masuk_akun/masuk.html" style="text-decoration: none;"><b>Masuk</b></a>
-                        </button>
-
-                        <button class="btn btn-outline-warning col-md-3 ms-1 mb-1 shadow-sm">
-                            <a href="../daftar/daftar.html"
-                                style="text-decoration: none; color: orange;"><b>Daftar</b></a>
-                        </button>
+                <div class="col-md-3 mb-2">
+                    <div class="row mb-2">
+                        <img src="../img/grey-img.png" class="img-fluid img-thumbnail img-input ms-3">
+                    </div>
+                    <div class="row mb-2">
+                        <button type="button" class="btn btn-outline-dark btn-img ms-5">+ Gambar</button>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-9 mb-2">
+                    <div class="input-group input-group-sm mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">Nama Produk</span>
+                        <input type="text" class="form-control" aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                    <div class="input-group input-group-sm mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">Harga (Rp)</span>
+                        <input type="text" class="form-control" aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Berat</span>
+                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                        <span class="input-group-text">Kg</span>
+                    </div>
+                    <div class="input-group input-group-sm mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">Lokasi Toko</span>
+                        <input type="text" class="form-control" aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                    <div class="input-group input-group-sm mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">No. Telp/HP</span>
+                        <input type="text" class="form-control" aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                    <div class="input-group mb-3">
+                        <label class="input-group-text" for="inputGroupSelect01">Jenis Produk</label>
+                        <select class="form-select" id="inputGroupSelect01">
+                            <option selected>Pilih...</option>
+                            <option value="1">Sapi</option>
+                            <option value="2">Kambing</option>
+                            <option value="3">Kerbau</option>
+                            <option value="4">Ayam</option>
+                            <option value="5">Produk Hasil Ternak (Telur, Susu, dll.)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- akhir box atas -->
+
+    <!-- box tengah -->
+    <section class="sec-tengah">
+        <div class="container box-tengah main-box shadow">
+            <div class="row">
+                <div class="col-md-3 mb-2">
+                    <img src="../img/grey-img.png" class="img-fluid img-thumbnail img-input">
+                </div>
+                <div class="col-9">
                     <div class="row">
-                        <div class="row mb-1">
-                            <button type="button" class="btn btn-secondary"><b>Lihat Profil</b></button>
-                        </div>
-                        <div class="row mb-1">
-                            <button type="button" class="btn btn-secondary"><b>Edit Profil</b></button>
-                        </div>
-                        <div class="row mb-1">
-                            <button type="button" class="btn btn-secondary"><b>Pengaturan</b></button>
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupFile01">Upload</label>
+                            <input type="file" class="form-control" id="inputGroupFile01">
                         </div>
                     </div>
-
+                    <div class="row ms-2">
+                        Masukkan Sertifikat Kualitas Produk
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- kotak atas akhir -->
+    <!-- akhir box tengah -->
 
-
-    <!-- kotak bawah -->
-    <section class="kotak-bawah">
-        <div class="container mebius shadow">
-            <div class="row mb-2">
-                <div class="col-md-6 mb-4">
-                    <a href="../sell/sell.html" class="menu-label">
-                        <img src="../img/logo-toko.png" class="rounded-circle shadow menu">
-                        <span class="text-deco-none label">&nbsp;Jual Produk</span>
-                    </a>
-                </div>
-                <div class="col-md-6 mb-4">
-                    <a href="" class="menu-label">
-                        <img src="../img/logo-gps.png" class="rounded-circle shadow menu">
-                        <span class="text-deco-none label">&nbsp;Status Pengiriman</span>
-                    </a>
+    <!-- box bawah -->
+    <section class="sec-bawah">
+        <div class="container box-bawah main-box shadow">
+            <div class="row mb-4">
+                <div class="input-group">
+                    <span class="input-group-text">Deskripsi Produk</span>
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
                 </div>
             </div>
             <div class="row mb-2">
-                <div class="col-md-6 mb-4">
-                    <a href="" class="menu-label">
-                        <img src="../img/logo-voucher.png" class="rounded-circle shadow menu">
-                        <span class="text-deco-none label">&nbsp;Voucher Saya</span>
-                    </a>
+                <div class="col-4"></div>
+                <div class="col-4 text-center">
+                    <button type="button" class="btn btn-outline-primary btn-jual">Jual Produk</button>
                 </div>
-                <div class="col-md-6 mb-4">
-                    <a href="" class="menu-label">
-                        <img src="../img/logo-promo.png" class="rounded-circle shadow menu">
-                        <span class="text-deco-none label">&nbsp;Promo</span>
-                    </a>
-                </div>
+                <div class="col-4"></div>
             </div>
         </div>
     </section>
-    <!-- kotak bawah akhir -->
+    <!-- akhir bawah -->
 
 
     <!-- footer -->
